@@ -1,0 +1,133 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="ef-zd38f9tx7ZEflhMy2" name="Page-2">
+    <mxGraphModel dx="589" dy="1438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UULbNsy0dhvTHzFNJgqK-1" parent="1" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;whiteSpace=wrap;" value="&lt;strong class=&quot;ng-star-inserted&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: border-box; color: rgb(27, 27, 30); font-family: Inter, sans-serif; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: border-box; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(252, 252, 252); border-width: medium; border-style: none; border-color: currentcolor; border-image: none; border-radius: 4px; color: rgb(43, 45, 49); display: inline-block; font-family: &amp;quot;DM Mono&amp;quot;, monospace; font-size: 1em; padding: 0px 2px;&quot;&gt;Персонал+&lt;/span&gt;&lt;/strong&gt;" vertex="1">
+          <mxGeometry height="440" width="650" x="170" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UULbNsy0dhvTHzFNJgqK-2" parent="UULbNsy0dhvTHzFNJgqK-1" style="swimlane;html=1;startSize=20;horizontal=0;" value="&lt;font face=&quot;DM Mono, monospace&quot; style=&quot;color: light-dark(rgb(179, 180, 183), rgb(255, 255, 255));&quot;&gt;Система&lt;/font&gt;" vertex="1">
+          <mxGeometry height="170" width="630" x="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UULbNsy0dhvTHzFNJgqK-6" parent="UULbNsy0dhvTHzFNJgqK-2" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=timer;" value="&lt;strong class=&quot;ng-star-inserted&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: border-box; color: rgb(27, 27, 30); font-family: Inter, sans-serif; font-size: 14px; text-align: start; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: border-box; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(252, 252, 252); border-width: medium; border-style: none; border-color: currentcolor; border-image: none; border-radius: 4px; color: rgb(43, 45, 49); display: inline-block; font-family: &amp;quot;DM Mono&amp;quot;, monospace; font-size: 1em; padding: 0px 2px;&quot;&gt;Кінець облікового періоду&lt;/span&gt;&lt;/strong&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="60" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UULbNsy0dhvTHzFNJgqK-7" parent="UULbNsy0dhvTHzFNJgqK-2" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="&lt;strong class=&quot;ng-star-inserted&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: border-box; color: rgb(27, 27, 30); font-family: Inter, sans-serif; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: border-box; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(252, 252, 252); border-width: medium; border-style: none; border-color: currentcolor; border-image: none; border-radius: 4px; color: rgb(43, 45, 49); display: inline-block; font-family: &amp;quot;DM Mono&amp;quot;, monospace; font-size: 1em; padding: 0px 2px;&quot;&gt;Відкрити звітний період для табелів&lt;/span&gt;&lt;/strong&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="170" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="UULbNsy0dhvTHzFNJgqK-8" edge="1" parent="UULbNsy0dhvTHzFNJgqK-2" source="UULbNsy0dhvTHzFNJgqK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.036;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" target="UULbNsy0dhvTHzFNJgqK-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UULbNsy0dhvTHzFNJgqK-29" edge="1" parent="UULbNsy0dhvTHzFNJgqK-2" source="UULbNsy0dhvTHzFNJgqK-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UULbNsy0dhvTHzFNJgqK-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UULbNsy0dhvTHzFNJgqK-26" parent="UULbNsy0dhvTHzFNJgqK-2" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="&lt;strong class=&quot;ng-star-inserted&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: border-box; color: rgb(27, 27, 30); font-family: Inter, sans-serif; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: border-box; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(252, 252, 252); border-width: medium; border-style: none; border-color: currentcolor; border-image: none; border-radius: 4px; color: rgb(43, 45, 49); display: inline-block; font-family: &amp;quot;DM Mono&amp;quot;, monospace; font-size: 1em; padding: 0px 2px;&quot;&gt;Закрити обліковий період у системі&lt;/span&gt;&lt;/strong&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="350" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="UULbNsy0dhvTHzFNJgqK-28" parent="UULbNsy0dhvTHzFNJgqK-2" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" value="&lt;strong class=&quot;ng-star-inserted&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: border-box; color: rgb(27, 27, 30); font-family: Inter, sans-serif; font-size: 14px; text-align: start; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: border-box; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(252, 252, 252); border-width: medium; border-style: none; border-color: currentcolor; border-image: none; border-radius: 4px; color: rgb(43, 45, 49); display: inline-block; font-family: &amp;quot;DM Mono&amp;quot;, monospace; font-size: 1em; padding: 0px 2px;&quot;&gt;Період закрито&lt;/span&gt;&lt;/strong&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="550" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UULbNsy0dhvTHzFNJgqK-3" parent="UULbNsy0dhvTHzFNJgqK-1" style="swimlane;html=1;startSize=20;horizontal=0;" value="&lt;font face=&quot;DM Mono, monospace&quot;&gt;&lt;span style=&quot;background-color: rgb(252, 252, 252); color: light-dark(rgb(43, 45, 49), rgb(255, 255, 255));&quot;&gt;Керівник підрозділу&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="150" width="630" x="20" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="UULbNsy0dhvTHzFNJgqK-20" edge="1" parent="UULbNsy0dhvTHzFNJgqK-3" source="UULbNsy0dhvTHzFNJgqK-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UULbNsy0dhvTHzFNJgqK-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UULbNsy0dhvTHzFNJgqK-16" parent="UULbNsy0dhvTHzFNJgqK-3" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="&lt;strong class=&quot;ng-star-inserted&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: border-box; color: rgb(27, 27, 30); font-family: Inter, sans-serif; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: border-box; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(252, 252, 252); border-width: medium; border-style: none; border-color: currentcolor; border-image: none; border-radius: 4px; color: rgb(43, 45, 49); display: inline-block; font-family: &amp;quot;DM Mono&amp;quot;, monospace; font-size: 1em; padding: 0px 2px;&quot;&gt;Перевірити години та розбіжності&lt;/span&gt;&lt;/strong&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="120" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="UULbNsy0dhvTHzFNJgqK-19" parent="UULbNsy0dhvTHzFNJgqK-3" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;" value="&lt;strong class=&quot;ng-star-inserted&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: border-box; color: rgb(27, 27, 30); font-family: Inter, sans-serif; font-size: 14px; text-align: start; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: border-box; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(252, 252, 252); border-width: medium; border-style: none; border-color: currentcolor; border-image: none; border-radius: 4px; color: rgb(43, 45, 49); display: inline-block; font-family: &amp;quot;DM Mono&amp;quot;, monospace; font-size: 1em; padding: 0px 2px;&quot;&gt;Є розбіжності?&lt;/span&gt;&lt;/strong&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="330" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UULbNsy0dhvTHzFNJgqK-4" parent="UULbNsy0dhvTHzFNJgqK-1" style="swimlane;html=1;startSize=20;horizontal=0;" value="HR / Бухгалтерія" vertex="1">
+          <mxGeometry height="120" width="630" x="20" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="UULbNsy0dhvTHzFNJgqK-23" parent="UULbNsy0dhvTHzFNJgqK-4" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="&lt;strong class=&quot;ng-star-inserted&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: border-box; color: rgb(27, 27, 30); font-family: Inter, sans-serif; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: border-box; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(252, 252, 252); border-width: medium; border-style: none; border-color: currentcolor; border-image: none; border-radius: 4px; color: rgb(43, 45, 49); display: inline-block; font-family: &amp;quot;DM Mono&amp;quot;, monospace; font-size: 1em; padding: 0px 2px;&quot;&gt;Передати дані для нарахування зарплати&lt;/span&gt;&lt;/strong&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="50" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UULbNsy0dhvTHzFNJgqK-24" edge="1" parent="UULbNsy0dhvTHzFNJgqK-1" source="UULbNsy0dhvTHzFNJgqK-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" target="UULbNsy0dhvTHzFNJgqK-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="270" />
+              <mxPoint x="280" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UULbNsy0dhvTHzFNJgqK-25" connectable="0" parent="UULbNsy0dhvTHzFNJgqK-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="ні" vertex="1">
+          <mxGeometry relative="1" x="0.5628" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UULbNsy0dhvTHzFNJgqK-27" edge="1" parent="UULbNsy0dhvTHzFNJgqK-1" source="UULbNsy0dhvTHzFNJgqK-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="UULbNsy0dhvTHzFNJgqK-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UULbNsy0dhvTHzFNJgqK-5" parent="1" style="swimlane;startSize=20;horizontal=0;html=1;whiteSpace=wrap;" value="&lt;span style=&quot;color: rgb(43, 45, 49); font-family: &amp;quot;DM Mono&amp;quot;, monospace; font-size: 14px; font-weight: 400; text-align: start; background-color: rgb(252, 252, 252);&quot;&gt;Працівник&lt;/span&gt;" vertex="1">
+          <mxGeometry height="200" width="650" x="170" y="-130" as="geometry" />
+        </mxCell>
+        <mxCell id="UULbNsy0dhvTHzFNJgqK-9" parent="UULbNsy0dhvTHzFNJgqK-5" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="&lt;strong class=&quot;ng-star-inserted&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: border-box; color: rgb(27, 27, 30); font-family: Inter, sans-serif; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: border-box; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(252, 252, 252); border-width: medium; border-style: none; border-color: currentcolor; border-image: none; border-radius: 4px; color: rgb(43, 45, 49); display: inline-block; font-family: &amp;quot;DM Mono&amp;quot;, monospace; font-size: 1em; padding: 0px 2px;&quot;&gt;Заповнити та подати табель&lt;/span&gt;&lt;/strong&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="150" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UULbNsy0dhvTHzFNJgqK-11" parent="UULbNsy0dhvTHzFNJgqK-5" style="shape=mxgraph.bpmn.data2;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;" value="&lt;strong class=&quot;ng-star-inserted&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: border-box; color: rgb(27, 27, 30); font-family: Inter, sans-serif; font-size: 14px; text-align: start; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: border-box; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(252, 252, 252); border-width: medium; border-style: none; border-color: currentcolor; border-image: none; border-radius: 4px; color: rgb(43, 45, 49); display: inline-block; font-family: &amp;quot;DM Mono&amp;quot;, monospace; font-size: 1em; padding: 0px 2px;&quot;&gt;Табель обліку часу&lt;/span&gt;&lt;/strong&gt;" vertex="1">
+          <mxGeometry height="60" width="40" x="50" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="UULbNsy0dhvTHzFNJgqK-14" parent="UULbNsy0dhvTHzFNJgqK-5" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" value="&lt;strong class=&quot;ng-star-inserted&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: border-box; color: rgb(27, 27, 30); font-family: Inter, sans-serif; font-size: 14px; text-align: start; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: border-box; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(252, 252, 252); border-width: medium; border-style: none; border-color: currentcolor; border-image: none; border-radius: 4px; color: rgb(43, 45, 49); display: inline-block; font-family: &amp;quot;DM Mono&amp;quot;, monospace; font-size: 1em; padding: 0px 2px;&quot;&gt;Табель не подано — нарахування за замовчуванням&lt;/span&gt;&lt;/strong&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="490" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UULbNsy0dhvTHzFNJgqK-32" edge="1" parent="UULbNsy0dhvTHzFNJgqK-5" source="UULbNsy0dhvTHzFNJgqK-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UULbNsy0dhvTHzFNJgqK-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="105" />
+              <mxPoint x="320" y="150.02" />
+              <mxPoint x="435.02" y="150.02" />
+              <mxPoint x="435.02" y="60.02" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UULbNsy0dhvTHzFNJgqK-13" parent="UULbNsy0dhvTHzFNJgqK-5" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=boundInt;symbol=timer;" value="&lt;strong class=&quot;ng-star-inserted&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: border-box; color: rgb(27, 27, 30); font-family: Inter, sans-serif; font-size: 14px; text-align: start; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span class=&quot;inline-code ng-star-inserted&quot; style=&quot;-webkit-tap-highlight-color: transparent; box-sizing: border-box; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(252, 252, 252); border-width: medium; border-style: none; border-color: currentcolor; border-image: none; border-radius: 4px; color: rgb(43, 45, 49); display: inline-block; font-family: &amp;quot;DM Mono&amp;quot;, monospace; font-size: 1em; padding: 0px 2px;&quot;&gt;Дедлайн подачі (3 дні)&lt;/span&gt;&lt;/strong&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="260" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UULbNsy0dhvTHzFNJgqK-31" edge="1" parent="UULbNsy0dhvTHzFNJgqK-5" source="UULbNsy0dhvTHzFNJgqK-9" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=none;startArrow=none;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" target="UULbNsy0dhvTHzFNJgqK-11" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="260" y="90" as="sourcePoint" />
+            <mxPoint x="420" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UULbNsy0dhvTHzFNJgqK-33" parent="UULbNsy0dhvTHzFNJgqK-5" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" value="Табель здано" vertex="1">
+          <mxGeometry height="50" width="50" x="340" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UULbNsy0dhvTHzFNJgqK-34" edge="1" parent="UULbNsy0dhvTHzFNJgqK-5" source="UULbNsy0dhvTHzFNJgqK-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UULbNsy0dhvTHzFNJgqK-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="305.01" y="50" />
+              <mxPoint x="305.01" y="27.3" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UULbNsy0dhvTHzFNJgqK-10" edge="1" parent="1" source="UULbNsy0dhvTHzFNJgqK-7" style="dashed=1;dashPattern=8 4;endArrow=blockThin;endFill=1;startArrow=oval;startFill=0;endSize=6;startSize=4;html=1;rounded=0;exitX=0.584;exitY=-0.017;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.579;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;" target="UULbNsy0dhvTHzFNJgqK-9" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="380" y="40" as="sourcePoint" />
+            <mxPoint x="540" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UULbNsy0dhvTHzFNJgqK-18" edge="1" parent="1" source="UULbNsy0dhvTHzFNJgqK-9" style="dashed=1;dashPattern=8 4;endArrow=blockThin;endFill=1;startArrow=oval;startFill=0;endSize=6;startSize=4;html=1;rounded=0;exitX=0.17;exitY=1.019;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="UULbNsy0dhvTHzFNJgqK-16" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="450" y="140" as="sourcePoint" />
+            <mxPoint x="610" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UULbNsy0dhvTHzFNJgqK-21" edge="1" parent="1" source="UULbNsy0dhvTHzFNJgqK-19" style="dashed=1;dashPattern=8 4;endArrow=blockThin;endFill=1;startArrow=oval;startFill=0;endSize=6;startSize=4;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.675;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;" target="UULbNsy0dhvTHzFNJgqK-9" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="450" y="140" as="sourcePoint" />
+            <mxPoint x="610" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UULbNsy0dhvTHzFNJgqK-22" connectable="0" parent="UULbNsy0dhvTHzFNJgqK-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="так" vertex="1">
+          <mxGeometry relative="1" x="-0.6595" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
