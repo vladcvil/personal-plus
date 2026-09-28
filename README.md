@@ -4,7 +4,7 @@
 
 * **Продукт:** №3 «Персонал+» (HRM-система)
 * **Demo-стенд:** [OrangeHRM Demo](https://opensource-demo.orangehrmlive.com)
-* **Стек технологій продукту:** PHP (Symfony), Vue.js, MySQL
+
 
 ---
 
