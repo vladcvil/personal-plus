@@ -152,6 +152,6 @@
 ## 5. Посилання на артефакти проєкту
 * **Репозиторій проєкту на GitHub:** [vladcvil/personal-plus](https://github.com/vladcvil/personal-plus)
 * **Папка BPMN-моделей (.drawio + .pdf):** [sprint1/bpmn](https://github.com/vladcvil/personal-plus/tree/main/sprint1/bpmn)
-* **Таблиця розподілу задач спринта (Google Sheets):** [Персонал+ — Задачі Спринт 1](https://docs.google.com/spreadsheets/d/1isyPjC43A-7POxqhNrrHh0CYReOXmbslV1BYMcpw_3E/edit)
+* **Таблиця розподілу задач спринта (Google Sheets):** [Персонал+ — Задачі Спринт 1](https://docs.google.com/spreadsheets/d/1oJ_O2zu1VKOeUUDof2dZHqYC4pG068HSfMPRDLoHNjA/edit?usp=sharing)
 * **Беклог вимог User Stories (Google Sheets):** [Персонал+ — Беклог вимог Спринт 1](https://docs.google.com/spreadsheets/d/1isyPjC43A-7POxqhNrrHh0CYReOXmbslV1BYMcpw_3E/edit)
 * **Поточна версія продукту (Demo-стенд):** [OrangeHRM Demo](https://opensource-demo.orangehrmlive.com)
