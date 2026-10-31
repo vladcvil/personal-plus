@@ -5,6 +5,7 @@
 * **Продукт:** №3 «Персонал+» (HRM-система)
 * **Demo-стенд:** [OrangeHRM Demo](https://opensource-demo.orangehrmlive.com)
 
+
 ---
 
 ## Склад команди (Спринт 3)
@@ -23,21 +24,6 @@
 
 *  **[Таск-борд спринта (task-board.md)](https://github.com/vladcvil/personal-plus/blob/main/docs/sprint3/task-board.md)**
 *  **[Комплект тест-кейсів та аркуш рецензування (test-cases.md)](https://github.com/vladcvil/personal-plus/blob/main/docs/sprint3/test-cases.md)**
-*  **[Журнал виконання тестів (execution-log.md)](https://github.com/vladcvil/personal-plus/blob/main/docs/sprint3/execution-log.md)**
-*  **[Акт внутрішнього аудиту (audit.md)](https://github.com/vladcvil/personal-plus/blob/main/docs/sprint3/audit.md)**
-*  **[Протокол ретроспективи (retro.md)](https://github.com/vladcvil/personal-plus/blob/main/docs/sprint3/retro.md)**
-
----
-
-## Підсумкова статистика виконання (Спринт 3)
-
-### Результати прогону тест-кейсів
-* **Всього тест-кейсів:** 29 (100% виконано)
-* **Passed (успішно):** 27 (93.1%)
-* **Failed (провалено):** 2 (6.9%)
-* **Blocked (заблоковано):** 0 (0%)
-
-### Зареєстровані дефекти
-* **Всього дефектів:** 2
-  * **Critical:** 1 (`BUG-TC25-1` — невідповідність валідації пароля вимогам безпеки)
-  * **Major:** 1 (`BUG-TC07-1` — відсутність перевірки 10-значного РНОКПП при створенні працівника)
+  *  **[Журнал виконання тестів (execution-log.md)](https://github.com/vladcvil/personal-plus/blob/main/docs/sprint3/execution-log.md)**
+  *  **[Акт внутрішнього аудиту (audit.md)](https://github.com/vladcvil/personal-plus/blob/main/docs/sprint3/audit.md)**
+  *  **[Протокол ретроспективи (retro.md)](https://github.com/vladcvil/personal-plus/blob/main/docs/sprint3/retro.md)**
