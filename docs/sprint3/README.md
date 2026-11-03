@@ -27,3 +27,4 @@
   *  **[Журнал виконання тестів (execution-log.md)](https://github.com/vladcvil/personal-plus/blob/main/docs/sprint3/execution-log.md)**
   *  **[Акт внутрішнього аудиту (audit.md)](https://github.com/vladcvil/personal-plus/blob/main/docs/sprint3/audit.md)**
   *  **[Протокол ретроспективи (retro.md)](https://github.com/vladcvil/personal-plus/blob/main/docs/sprint3/retro.md)**
+  *  **[Список покриття](https://docs.google.com/spreadsheets/d/1W_JQPKzWk7bkmN1WhgY2GwvcnIHXLmDL-GNQxhzm9qg/edit?gid=0#gid=0)**
