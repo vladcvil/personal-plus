@@ -80,4 +80,20 @@ public class LeaveCalculatorTest {
         // Дата null має кидати IllegalArgumentException
         assertThrows(IllegalArgumentException.class, () -> calc.durationDays(null, end));
     }
+
+
+
+
+
+    // BL-40: Перевірка можливості заявки: тривалість <= баланс
+    @Test
+    void canRequest_durationWithinAndExceedingBalance_returnsExpected() {
+        assertAll(
+            () -> assertTrue(calculator.canRequest(10, 5)),   // тривалість < баланс
+            () -> assertTrue(calculator.canRequest(5, 5)),    // граничне: тривалість == баланс
+            () -> assertFalse(calculator.canRequest(5, 6))    // тривалість > баланс
+        );
+    }
 }
+
+
