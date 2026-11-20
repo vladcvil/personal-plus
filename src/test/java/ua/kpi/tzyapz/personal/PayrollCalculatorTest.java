@@ -39,6 +39,7 @@ class PayrollCalculatorTest {
         );
     }
 
+
     // 1. Погодинна ставка: оклад / 168 з округленням HALF_UP (рядок 14 у таблиці)
     @Test
     @DisplayName("BL-60: Погодинна ставка з округленням HALF_UP (приклад з SRS)")
@@ -66,7 +67,6 @@ class PayrollCalculatorTest {
     @Test
     @DisplayName("BL-70: Оплата надурочних годин (коефіцієнт 1.5, дробові години)")
     void overtimePay_fractionalHours_calculatesCorrectly() {
-        // Оклад 16 800 (ставка 100.00), години 2.5 -> 100 * 1.5 * 2.5 = 375.00
         BigDecimal monthly = new BigDecimal("16800.00");
         BigDecimal hours = new BigDecimal("2.5");
         assertEquals(new BigDecimal("375.00"), calculator.overtimePay(monthly, hours));
