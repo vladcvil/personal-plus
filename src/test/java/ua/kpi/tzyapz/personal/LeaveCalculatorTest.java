@@ -89,9 +89,9 @@ public class LeaveCalculatorTest {
     @Test
     void canRequest_durationWithinAndExceedingBalance_returnsExpected() {
         assertAll(
-            () -> assertTrue(calculator.canRequest(10, 5)),   // тривалість < баланс
-            () -> assertTrue(calculator.canRequest(5, 5)),    // граничне: тривалість == баланс
-            () -> assertFalse(calculator.canRequest(5, 6))    // тривалість > баланс
+            () -> assertTrue(calc.canRequest(10, 5)),   // тривалість < баланс
+            () -> assertTrue(calc.canRequest(5, 5)),    // граничне: тривалість == баланс
+            () -> assertFalse(calc.canRequest(5, 6))    // тривалість > баланс
         );
     }
 }
