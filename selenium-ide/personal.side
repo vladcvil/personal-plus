@@ -1,1 +1,149 @@
-
+{
+  "id": "a1b2c3d4-e5f6-4789-abcd-1234567890ab",
+  "version": "2.0",
+  "name": "PersonalPlus",
+  "url": "https://opensource-demo.orangehrmlive.com",
+  "tests": [
+    {
+      "id": "11111111-1111-1111-1111-111111111111",
+      "name": "TC-01 Valid Admin Login",
+      "commands": [
+        {
+          "id": "c1",
+          "comment": "",
+          "command": "open",
+          "target": "/web/index.php/auth/login",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c2",
+          "comment": "",
+          "command": "waitForElementVisible",
+          "target": "name=username",
+          "targets": [],
+          "value": "15000"
+        },
+        {
+          "id": "c3",
+          "comment": "",
+          "command": "type",
+          "target": "name=username",
+          "targets": [],
+          "value": "Admin"
+        },
+        {
+          "id": "c4",
+          "comment": "",
+          "command": "type",
+          "target": "name=password",
+          "targets": [],
+          "value": "admin123"
+        },
+        {
+          "id": "c5",
+          "comment": "",
+          "command": "click",
+          "target": "css=button[type='submit']",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c6",
+          "comment": "",
+          "command": "waitForElementVisible",
+          "target": "css=.oxd-userdropdown-name",
+          "targets": [],
+          "value": "15000"
+        },
+        {
+          "id": "c7",
+          "comment": "",
+          "command": "assertElementPresent",
+          "target": "css=.oxd-userdropdown-name",
+          "targets": [],
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222222",
+      "name": "TC-02 Invalid Password",
+      "commands": [
+        {
+          "id": "d1",
+          "comment": "",
+          "command": "open",
+          "target": "/web/index.php/auth/login",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "d2",
+          "comment": "",
+          "command": "waitForElementVisible",
+          "target": "name=username",
+          "targets": [],
+          "value": "15000"
+        },
+        {
+          "id": "d3",
+          "comment": "",
+          "command": "type",
+          "target": "name=username",
+          "targets": [],
+          "value": "Admin"
+        },
+        {
+          "id": "d4",
+          "comment": "",
+          "command": "type",
+          "target": "name=password",
+          "targets": [],
+          "value": "wrong_pass"
+        },
+        {
+          "id": "d5",
+          "comment": "",
+          "command": "click",
+          "target": "css=button[type='submit']",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "d6",
+          "comment": "",
+          "command": "waitForElementVisible",
+          "target": "css=.oxd-alert-content-text",
+          "targets": [],
+          "value": "15000"
+        },
+        {
+          "id": "d7",
+          "comment": "",
+          "command": "assertText",
+          "target": "css=.oxd-alert-content-text",
+          "targets": [],
+          "value": "Invalid credentials"
+        }
+      ]
+    }
+  ],
+  "suites": [
+    {
+      "id": "s1",
+      "name": "Default Suite",
+      "persistSession": false,
+      "parallel": false,
+      "timeout": 300,
+      "tests": [
+        "11111111-1111-1111-1111-111111111111",
+        "22222222-2222-2222-2222-222222222222"
+      ]
+    }
+  ],
+  "urls": [
+    "https://opensource-demo.orangehrmlive.com"
+  ],
+  "plugins": []
+}
